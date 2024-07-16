@@ -217,14 +217,15 @@ html body{
     flex-direction: column;
   }
   .fa-facebook{
-    width: 50vw;
+    width: 20vw;
   }
+
   .fa-linkedin{
-    width: 50vw;
+    width: 20vw;
   }
 
   .fa-github{
-    width: 50vw;
+    width: 20vw;
   }
 
   .projectbox{
