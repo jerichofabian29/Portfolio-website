@@ -54,7 +54,6 @@ html body{
     width:100%;
     margin:0;
     padding:0;
-    border-color:#051923;
   }
 
   nav ul li a {
@@ -98,6 +97,7 @@ nav ul li:last-child{
 
 nav ul hr{
     display:block;
+    border-color:#051923;
 }
 
 nav ul li{
