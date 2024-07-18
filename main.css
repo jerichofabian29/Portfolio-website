@@ -49,6 +49,14 @@ html body{
     list-style-type: none;
   }
 
+  nav hr {
+    display: none; /* From previous step */
+    width:100%;
+    margin:0;
+    padding:0;
+    border-color:#051923;
+  }
+
   nav ul li a {
     text-decoration: none;
     color:#669bbc;
@@ -77,9 +85,22 @@ html body{
       background-color: #023047;
       padding: 0;
       overflow: hidden;
+      gap: 10px;
   }
 
-  nav ul li{
+nav ul li:nth-child(4){
+    padding-inline:10px;
+}
+    
+nav ul li:last-child{
+    margin-bottom:20px;
+}
+
+nav ul hr{
+    display:block;
+}
+
+nav ul li{
       padding: 20px;
   }
 
@@ -216,6 +237,7 @@ html body{
   .footerbox{
     flex-direction: column;
   }
+  
   .fa-facebook{
     width: 20vw;
   }
