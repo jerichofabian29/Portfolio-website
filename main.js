@@ -48,7 +48,7 @@ let burgerMenu = document.querySelector("#burgerMenu");
 
 function toggleMenu(){
     if(menuList.style.maxHeight == "0px"){
-        menuList.style.maxHeight = "450px";
+        menuList.style.maxHeight = "390px";
 
     }
     else{
