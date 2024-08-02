@@ -493,19 +493,21 @@ nav ul li{
 }
 
 .projectContainer{
-  object-fit: contain;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1em;
-  
+  flex-wrap: wrap;
+  height: auto;
 }
 
-.projectContainer img{
+.projectContainer .projectbox img{
   height: auto;
-  max-width: 20vw;
-  margin:auto;
+  max-width: 20vw; 
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
   transition: all 0.3s ease-in-out;
   border-radius: 12px;
 }
@@ -516,16 +518,14 @@ nav ul li{
 
 .projectbox{
   display: flex;
-  justify-content: center;
+
   align-items: center;
   flex-direction: column;
   text-align: justify;
-  height: auto;
+  height: 50dvh;
   padding: 1em;
-  flex-wrap: wrap;
-  max-width: 50vw;
+  max-width: 30vw;
   min-width: 20vw;
-  min-height: 20vh;
   font-size: calc(0.5rem + 0.5vw);
 }
 
@@ -554,6 +554,7 @@ footer{
   display: flex;
   flex-direction: column;
   margin-inline:2em;
+  gap: 10px;
 }
 
 footer h2{
